@@ -1,46 +1,50 @@
 @font-face {
- font-family: Pacifico;
+  font-family: Pacifico;
   src: url("assets/fonts/Pacifico-Regular.ttf");
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
   }
 
 body {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;	
-	background-color: #d2b48c;
-	border: 3px dotted black;
-	margin: 0 auto;
-	padding: 0px;
-	font-family: Pacifico;
+  display: flex;	
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #d2b48c;
+  font-family: Pacifico;
 }
 
 .container {
-	display: inline;
-	margin-left: 175px;	
-	margin-right: 175px;
-	max-width: 1440px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
-.section {
-	color: blue;
-	font-size: large;
-	list-style: none;
+.nav :hover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: blue;
+  font-size: large;
+  list-style: none;
 }
 
-.text {
-	color: blue;
-	font-size: middle;
-	list-style: none;
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
-.nav {
-	color: blue;
-        display: inline;
-        font-size: large;
-	list-style: none;
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
